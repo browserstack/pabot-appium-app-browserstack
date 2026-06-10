@@ -1,0 +1,11 @@
+.vscode
+__pycache__
+.pytest_cache
+.venv
+env
+output.xml
+log.html
+report.html
+pabot_results
+log/
+local.log
