@@ -1,0 +1,8 @@
+Appium-Python-Client
+selenium>=4.0.0
+robotframework
+robotframework-appiumlibrary
+robotframework-seleniumlibrary
+robotframework-pabot
+browserstack-local
+browserstack-sdk @ https://sdk-assets.browserstack.com/python/browserstack_sdk-latest.tar.gz

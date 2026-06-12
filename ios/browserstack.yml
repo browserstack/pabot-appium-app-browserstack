@@ -1,0 +1,45 @@
+# =============================
+# Set BrowserStack Credentials
+# =============================
+userName: YOUR_USERNAME
+accessKey: YOUR_ACCESS_KEY
+
+# ======================
+# BrowserStack Reporting
+# ======================
+projectName: BrowserStack Samples
+buildName: appauto-pabot-appium
+buildIdentifier: '#${BUILD_NUMBER}'
+framework: robotframework
+
+# ==========================================
+# Application under test
+# ==========================================
+# BStackSampleApp.ipa — supply a local path (the SDK uploads it) or a pre-uploaded bs://<id>.
+app: ./BStackSampleApp.ipa
+
+# =======================================
+# Platforms (Devices to test on)
+# =======================================
+platforms:
+  - deviceName: iPhone 14 Pro
+    osVersion: "16"
+    platformName: ios
+
+# =======================
+# Parallels per Platform
+# =======================
+parallelsPerPlatform: 1
+
+source: pabot-appium-app-browserstack:sample-sdk:v1.0
+
+# ======================
+# Test Observability
+# ======================
+testObservability: true
+
+# ===================
+# Debugging features
+# ===================
+debug: true
+networkLogs: true
