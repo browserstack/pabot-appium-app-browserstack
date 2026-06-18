@@ -16,7 +16,7 @@ This repo is self-contained per platform: `android/` (and `ios/` for completenes
 
 ```bash
 git clone <this-repo>
-cd pabot-appium/android
+cd pabot-appium-app-browserstack/android
 
 python3 -m venv .venv
 source .venv/bin/activate          # activate so the SDK CLI resolves from this venv
