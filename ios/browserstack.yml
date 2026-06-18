@@ -31,7 +31,7 @@ platforms:
 # =======================
 parallelsPerPlatform: 1
 
-source: pabot-appium-app-browserstack:sample-sdk:v1.0
+source: robotframework:appium-sample-sdk:v1.0
 
 # ======================
 # Test Observability
