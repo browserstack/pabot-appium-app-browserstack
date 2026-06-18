@@ -19,7 +19,7 @@ framework: robotframework
 # Application under test (pre-uploaded APK)
 # ==========================================
 # WikipediaSample.apk — pre-uploaded to BrowserStack. The SDK uses this app for every session.
-app: bs://92d48b416632f2b1734259565ceab61b05ad0b24
+app: ./WikipediaSample.apk
 
 # =======================================
 # Platforms (Devices to test on)
